@@ -91,6 +91,7 @@
             this.textBoxAddress_City.Name = "textBoxAddress_City";
             this.textBoxAddress_City.Size = new System.Drawing.Size(100, 21);
             this.textBoxAddress_City.TabIndex = 0;
+            this.textBoxAddress_City.TabStop = false;
             // 
             // textBoxAddress_Street
             // 
@@ -98,6 +99,7 @@
             this.textBoxAddress_Street.Name = "textBoxAddress_Street";
             this.textBoxAddress_Street.Size = new System.Drawing.Size(100, 21);
             this.textBoxAddress_Street.TabIndex = 1;
+            this.textBoxAddress_Street.TabStop = false;
             // 
             // textBoxTotalFloors
             // 
@@ -114,6 +116,7 @@
             this.textBoxFloor.Name = "textBoxFloor";
             this.textBoxFloor.Size = new System.Drawing.Size(100, 21);
             this.textBoxFloor.TabIndex = 3;
+            this.textBoxFloor.TabStop = false;
             this.textBoxFloor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxFloor_KeyPress);
             // 
             // textBoxTotalArea
@@ -123,6 +126,7 @@
             this.textBoxTotalArea.Name = "textBoxTotalArea";
             this.textBoxTotalArea.Size = new System.Drawing.Size(100, 21);
             this.textBoxTotalArea.TabIndex = 5;
+            this.textBoxTotalArea.TabStop = false;
             this.textBoxTotalArea.TextChanged += new System.EventHandler(this.textBoxTotalArea_TextChanged);
             this.textBoxTotalArea.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxTotalArea_KeyPress);
             // 
@@ -132,6 +136,7 @@
             this.textBoxCoordinate_longitude.Name = "textBoxCoordinate_longitude";
             this.textBoxCoordinate_longitude.Size = new System.Drawing.Size(100, 21);
             this.textBoxCoordinate_longitude.TabIndex = 6;
+            this.textBoxCoordinate_longitude.TabStop = false;
             this.textBoxCoordinate_longitude.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxCoordinate_longitude_KeyPress);
             // 
             // textBoxCoordinate_latitude
@@ -140,6 +145,7 @@
             this.textBoxCoordinate_latitude.Name = "textBoxCoordinate_latitude";
             this.textBoxCoordinate_latitude.Size = new System.Drawing.Size(100, 21);
             this.textBoxCoordinate_latitude.TabIndex = 7;
+            this.textBoxCoordinate_latitude.TabStop = false;
             this.textBoxCoordinate_latitude.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxCoordinate_latitude_KeyPress);
             // 
             // textBoxAddress_Number
@@ -148,6 +154,7 @@
             this.textBoxAddress_Number.Name = "textBoxAddress_Number";
             this.textBoxAddress_Number.Size = new System.Drawing.Size(100, 21);
             this.textBoxAddress_Number.TabIndex = 8;
+            this.textBoxAddress_Number.TabStop = false;
             this.textBoxAddress_Number.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxAddress_Number_KeyPress);
             // 
             // textBoxAddress_House
@@ -156,6 +163,7 @@
             this.textBoxAddress_House.Name = "textBoxAddress_House";
             this.textBoxAddress_House.Size = new System.Drawing.Size(100, 21);
             this.textBoxAddress_House.TabIndex = 9;
+            this.textBoxAddress_House.TabStop = false;
             this.textBoxAddress_House.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxAddress_House_KeyPress);
             // 
             // labelAddress_City
@@ -320,6 +328,7 @@
             this.comboBoxType.Name = "comboBoxType";
             this.comboBoxType.Size = new System.Drawing.Size(121, 21);
             this.comboBoxType.TabIndex = 12;
+            this.comboBoxType.TabStop = false;
             this.comboBoxType.SelectedIndexChanged += new System.EventHandler(this.comboBoxType_SelectedIndexChanged);
             // 
             // textBoxRooms
@@ -328,6 +337,7 @@
             this.textBoxRooms.Name = "textBoxRooms";
             this.textBoxRooms.Size = new System.Drawing.Size(100, 21);
             this.textBoxRooms.TabIndex = 3;
+            this.textBoxRooms.TabStop = false;
             this.textBoxRooms.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxRooms_KeyPress);
             // 
             // labelRooms
@@ -409,6 +419,7 @@
             this.listViewRealEstateSet_House.Name = "listViewRealEstateSet_House";
             this.listViewRealEstateSet_House.Size = new System.Drawing.Size(619, 271);
             this.listViewRealEstateSet_House.TabIndex = 17;
+            this.listViewRealEstateSet_House.TabStop = false;
             this.listViewRealEstateSet_House.UseCompatibleStateImageBehavior = false;
             this.listViewRealEstateSet_House.View = System.Windows.Forms.View.Details;
             this.listViewRealEstateSet_House.Visible = false;

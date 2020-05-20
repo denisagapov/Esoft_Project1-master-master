@@ -73,6 +73,7 @@ namespace Esoft_Project
             this.comboBoxSupply.Name = "comboBoxSupply";
             this.comboBoxSupply.Size = new System.Drawing.Size(214, 21);
             this.comboBoxSupply.TabIndex = 1;
+            this.comboBoxSupply.TabStop = false;
             this.comboBoxSupply.SelectedIndexChanged += new System.EventHandler(this.comboBoxSupply_SelectedIndexChanged);
             // 
             // labelDemand
@@ -91,6 +92,7 @@ namespace Esoft_Project
             this.comboBoxDemand.Name = "comboBoxDemand";
             this.comboBoxDemand.Size = new System.Drawing.Size(214, 21);
             this.comboBoxDemand.TabIndex = 1;
+            this.comboBoxDemand.TabStop = false;
             this.comboBoxDemand.SelectedIndexChanged += new System.EventHandler(this.comboBoxDemand_SelectedIndexChanged);
             // 
             // labelSellerCompanyDeductions
@@ -108,6 +110,7 @@ namespace Esoft_Project
             this.textBoxSellerCompanyDeductions.Name = "textBoxSellerCompanyDeductions";
             this.textBoxSellerCompanyDeductions.Size = new System.Drawing.Size(214, 21);
             this.textBoxSellerCompanyDeductions.TabIndex = 3;
+            this.textBoxSellerCompanyDeductions.TabStop = false;
             // 
             // labelAgentsSellerDeductions
             // 
@@ -124,6 +127,7 @@ namespace Esoft_Project
             this.textBoxAgentSellerDeductions.Name = "textBoxAgentSellerDeductions";
             this.textBoxAgentSellerDeductions.Size = new System.Drawing.Size(214, 21);
             this.textBoxAgentSellerDeductions.TabIndex = 3;
+            this.textBoxAgentSellerDeductions.TabStop = false;
             // 
             // labelCustomerCompanyDeductions
             // 
@@ -140,6 +144,7 @@ namespace Esoft_Project
             this.textBoxCustomerCompanyDeductions.Name = "textBoxCustomerCompanyDeductions";
             this.textBoxCustomerCompanyDeductions.Size = new System.Drawing.Size(214, 21);
             this.textBoxCustomerCompanyDeductions.TabIndex = 3;
+            this.textBoxCustomerCompanyDeductions.TabStop = false;
             // 
             // labelAgentCustomerDeductions
             // 
@@ -156,6 +161,7 @@ namespace Esoft_Project
             this.textBoxAgentCustomerDeductions.Name = "textBoxAgentCustomerDeductions";
             this.textBoxAgentCustomerDeductions.Size = new System.Drawing.Size(214, 21);
             this.textBoxAgentCustomerDeductions.TabIndex = 3;
+            this.textBoxAgentCustomerDeductions.TabStop = false;
             // 
             // listViewDealSet
             // 
@@ -174,6 +180,7 @@ namespace Esoft_Project
             this.listViewDealSet.Name = "listViewDealSet";
             this.listViewDealSet.Size = new System.Drawing.Size(662, 218);
             this.listViewDealSet.TabIndex = 4;
+            this.listViewDealSet.TabStop = false;
             this.listViewDealSet.UseCompatibleStateImageBehavior = false;
             this.listViewDealSet.View = System.Windows.Forms.View.Details;
             this.listViewDealSet.SelectedIndexChanged += new System.EventHandler(this.listViewDealSet_SelectedIndexChanged);

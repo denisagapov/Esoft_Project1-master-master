@@ -58,6 +58,7 @@
             this.textBoxPrice.Name = "textBoxPrice";
             this.textBoxPrice.Size = new System.Drawing.Size(207, 21);
             this.textBoxPrice.TabIndex = 0;
+            this.textBoxPrice.TabStop = false;
             this.textBoxPrice.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxPrice_KeyPress);
             // 
             // labelAgent
@@ -115,6 +116,7 @@
             this.listViewSupplySet.Name = "listViewSupplySet";
             this.listViewSupplySet.Size = new System.Drawing.Size(938, 140);
             this.listViewSupplySet.TabIndex = 2;
+            this.listViewSupplySet.TabStop = false;
             this.listViewSupplySet.UseCompatibleStateImageBehavior = false;
             this.listViewSupplySet.View = System.Windows.Forms.View.Details;
             this.listViewSupplySet.SelectedIndexChanged += new System.EventHandler(this.listViewSupplySet_SelectedIndexChanged);
@@ -219,6 +221,7 @@
             this.comboBoxClients.Name = "comboBoxClients";
             this.comboBoxClients.Size = new System.Drawing.Size(207, 21);
             this.comboBoxClients.TabIndex = 25;
+            this.comboBoxClients.TabStop = false;
             // 
             // comboBoxAgents
             // 
@@ -227,6 +230,7 @@
             this.comboBoxAgents.Name = "comboBoxAgents";
             this.comboBoxAgents.Size = new System.Drawing.Size(207, 21);
             this.comboBoxAgents.TabIndex = 25;
+            this.comboBoxAgents.TabStop = false;
             // 
             // comboBoxRealEstate
             // 
@@ -235,6 +239,7 @@
             this.comboBoxRealEstate.Name = "comboBoxRealEstate";
             this.comboBoxRealEstate.Size = new System.Drawing.Size(207, 21);
             this.comboBoxRealEstate.TabIndex = 25;
+            this.comboBoxRealEstate.TabStop = false;
             // 
             // pictureBox1
             // 
